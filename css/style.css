@@ -1,0 +1,21 @@
+/* RRA Color Palette */
+:root {
+  --rra-green: #006400;
+  --rra-blue: #0047AB;
+  --rra-yellow: #FFDE21;
+  --rra-red: #C62828;
+  --rra-purple: #7E57C2;
+}
+
+/* Global */
+body {
+  font-family: "Inter", sans-serif;
+  background: #f5f7fa;
+}
+
+/* Status badge colors */
+.status-green { background: var(--rra-green); color:#ffffff; }
+.status-orange { background: var(--rra-yellow); color:#fff; }
+.status-red { background: var(--rra-red); color:#fff; }
+.status-purple { background: var(--rra-purple); color:#fff; }
+.status-blue { background: var(--rra-blue); color:#fff; }

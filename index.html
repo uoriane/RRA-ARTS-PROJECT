@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARTS – Home</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-100">
+
+  <!-- NAVBAR -->
+  <?php include('navbar.html'); ?>
+
+  <!-- HERO SECTION -->
+  <section class="text-center py-20 px-6">
+    <img src="assets/rra-logo.png" class="w-40 mx-auto mb-6">
+
+    <h1 class="text-4xl md:text-5xl font-bold text-[var(--rra-green)] mb-4">
+      Audit Recommendation Tracking System (ARTS)
+    </h1>
+
+    <p class="text-gray-700 max-w-2xl mx-auto text-lg mb-8">
+      Track implementation of internal, external, and QMS audit recommendations across all RRA departments.
+      Stay updated in real-time with automated dashboards, reminders, and progress reports.
+    </p>
+
+    <div class="space-x-4">
+      <a href="dashboard.html" class="px-6 py-3 rounded bg-[var(--rra-green)] text-white hover:bg-green-900">View Dashboard</a>
+      <a href="add-recommendation.html" class="px-6 py-3 rounded bg-[var(--rra-blue)] text-white hover:bg-blue-900">Add Recommendation</a>
+    </div>
+  </section>
+
+</body>
+</html>

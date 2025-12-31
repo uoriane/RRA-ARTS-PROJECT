@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Recommendation</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-100">
+
+  <?php include('navbar.html'); ?>
+
+  <section class="max-w-4xl mx-auto bg-white p-6 shadow-md rounded mt-6">
+
+    <h2 class="text-2xl font-bold text-[var(--rra-green)] mb-4">Add Audit Recommendation</h2>
+
+    <form id="recommendationForm" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+      <input name="title" placeholder="Title" class="p-3 border rounded" required>
+      <input name="team" placeholder="Audit Team" class="p-3 border rounded" required>
+
+      <select name="auditType" class="p-3 border rounded">
+        <option value="">Audit Type</option>
+        <option>Internal Audit</option>
+        <option>External Audit</option>
+        <option>QMS Internal</option>
+        <option>QMS External</option>
+      </select>
+
+      <select name="department" class="p-3 border rounded">
+        <option value="">Department</option>
+        <option>Customs</option>
+        <option>Finance</option>
+        <option>ITDTD</option>
+        <option>IAID</option>
+      </select>
+
+      <textarea name="description" placeholder="Description" class="p-3 border rounded md:col-span-2" required></textarea>
+
+      <select name="status" class="p-3 border rounded">
+        <option value="not-implemented">Not Implemented</option>
+        <option value="partially-implemented">Partially Implemented</option>
+        <option value="fully-implemented">Fully Implemented</option>
+        <option value="beyond-control">Beyond Control</option>
+        <option value="not-applicable">Not Applicable</option>
+      </select>
+
+      <input type="date" name="deadline" class="p-3 border rounded">
+
+      <button class="bg-[var(--rra-blue)] text-white py-3 rounded md:col-span-2 hover:bg-blue-900">
+        Save Recommendation
+      </button>
+
+    </form>
+  </section>
+
+  <script src="js/add.js"></script>
+</body>
+
+</html>

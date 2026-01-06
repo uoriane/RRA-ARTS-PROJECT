@@ -1,5 +1,5 @@
-ARTS – Audit Recommendation Tracking System (Frontend)
-Overview
+# ARTS Audit Recommendation Tracking System (Frontend)
+# Overview
 
 ARTS is a web-based Audit Recommendation Tracking System designed for the Rwanda Revenue Authority (RRA). It automates the submission, tracking, and reporting of audit recommendations across multiple RRA departments.
 
@@ -7,7 +7,7 @@ The frontend is built using HTML, Tailwind CSS, and vanilla JavaScript, with Cha
 
 The system is mobile-friendly, responsive, and uses the official RRA color palette for a professional look.
 
-Features
+# Features
 
 Home Page
 
@@ -80,7 +80,7 @@ rra-arts-frontend/
 └── assets/
     └── rra-logo.png            # RRA logo
 
-Technologies Used
+# Technologies Used
 
 HTML5 – structure of web pages
 
@@ -121,7 +121,7 @@ Navigate through Home → Add Recommendation → Dashboard.
 
 Add recommendations, filter, and see them immediately reflected on the dashboard.
 
-Usage Notes
+# Usage Notes
 
 Mobile-Friendly: Fully responsive for mobile, tablet, and desktop screens
 
@@ -131,7 +131,7 @@ Color-Coding: Status badges and card borders indicate implementation status
 
 Charts: Dashboard bar chart updates automatically with new recommendations
 
-Future Improvements
+# Future Improvements
 
 Edit and delete recommendations directly from the dashboard
 
@@ -143,7 +143,7 @@ Add authentication and backend integration
 
 Animations for card hover effects and form submission
 
-Author
+# Author
 
-Uwineza Oriane – Chairperson / Frontend Developer
+UWINEZA ORIANE – Frontend Developer
 Rwanda Revenue Authority – Audit Recommendation Tracking System Project

@@ -9,8 +9,8 @@ The system is mobile-friendly, responsive, and uses the official RRA color palet
 
 # Features
 
-Home Page
-
+ Home Page
+--
 Clean, informative landing page
 
 Links to Dashboard and Add Recommendation pages
@@ -18,7 +18,7 @@ Links to Dashboard and Add Recommendation pages
 RRA-branded colors and logo
 
 Add Recommendation
-
+--
 Form to capture audit recommendations
 
 Includes fields: title, team, audit type, department, description, status, and deadline
@@ -28,6 +28,7 @@ Data saved to localStorage
 Fully mobile-friendly
 
 Dashboard
+--
 
 Displays all recommendations in cards
 
@@ -50,49 +51,54 @@ Interactive Chart.js bar chart showing implementation percentages
 Fully responsive grid layout for cards
 
 Data Persistence
+--
 
-All recommendations are stored in localStorage
+All recommendations are stored in localStorage (For now )
 
-No backend required for immediate testing
+No backend required for immediate testing (For now)
 
-RRA Color Palette
+RRA Color Palette 
+--
 Status	Color Code	Class Name
 Fully Implemented	#006400	.status-green
 Partially Implemented	#F4A300	.status-orange
 Not Implemented	#C62828	.status-red
 Beyond RRA Management Control	#7E57C2	.status-purple
 Not Applicable	#0047AB	.status-blue
+
 Project Structure
+--
+
 rra-arts-frontend/
 │
-├── index.html                  # Home page
-├── dashboard.html              # Dashboard page
-├── add-recommendation.html     # Form page
+├── index.html                  
+├── dashboard.html              
+├── add-recommendation.html     
 │
 ├── css/
-│   └── style.css               # Global and status styles
+│   └── style.css               
 │
 ├── js/
-│   ├── main.js                 # Shared logic (localStorage, colors)
-│   ├── add.js                  # Add recommendation form logic
-│   └── dashboard.js            # Dashboard rendering, filters, Chart.js
+│   ├── main.js                 
+│   ├── add.js                  
+│   └── dashboard.js       
 │
 └── assets/
-    └── rra-logo.png            # RRA logo
+    └── rra-logo.png         
 
 # Technologies Used
 
-HTML5 – structure of web pages
+1) HTML5 – structure of web pages
 
-Tailwind CSS – styling and responsive design
+2) Tailwind CSS – styling and responsive design
 
-Vanilla JavaScript – DOM manipulation and localStorage
+3) Vanilla JavaScript – DOM manipulation and localStorage
 
-Chart.js – visualization of recommendation status
+4) Chart.js – visualization of recommendation status
 
-LocalStorage – data persistence without a backend
+5) LocalStorage – data persistence without a backend
 
-Installation & Usage
+# Installation & Usage
 
 Clone or download the repository:
 
@@ -123,27 +129,27 @@ Add recommendations, filter, and see them immediately reflected on the dashboard
 
 # Usage Notes
 
-Mobile-Friendly: Fully responsive for mobile, tablet, and desktop screens
+1) Mobile-Friendly: Fully responsive for mobile, tablet, and desktop screens
 
-No Backend: All data is stored in the browser’s localStorage
+2) No Backend: All data is stored in the browser’s localStorage
 
-Color-Coding: Status badges and card borders indicate implementation status
+3) Color-Coding: Status badges and card borders indicate implementation status
 
-Charts: Dashboard bar chart updates automatically with new recommendations
+4) Charts: Dashboard bar chart updates automatically with new recommendations
 
 # Future Improvements
 
-Edit and delete recommendations directly from the dashboard
+1) Edit and delete recommendations directly from the dashboard
 
-Department-wise dashboards
+2) Department-wise dashboards
 
-Export dashboard data to Excel/PDF
+3) Export dashboard data to Excel/PDF
 
-Add authentication and backend integration
+4) Add authentication and backend integration
 
-Animations for card hover effects and form submission
+5) Animations for card hover effects and form submission
 
 # Author
 
 UWINEZA ORIANE – Frontend Developer
-Rwanda Revenue Authority – Audit Recommendation Tracking System Project
+Rwanda Revenue Authority Audit Recommendation Tracking System Project
